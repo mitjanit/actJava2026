@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0357d0f-98c9-4e7c-a752-7d841ab2fe29" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActJAVA2026.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/BucleChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/ExempleBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/ExempleBreak2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/ExempleContinue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/ExempleContinue2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/ForInicialitzat2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/Imprimir100a1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/Imprmir1a100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/Multiples3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/Producte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/QuantsNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/SuccesioAritmetica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/SuccesioGeometrica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/SumaNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/TaulaMultiplicar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/TaulaMultiplicar10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/condicionals/Equacions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/condicionals/Maxim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/condicionals/NotaPonderada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/condicionals/NumeroParOperadorCondicional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/condicionals/OperadorCondicional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/condicionals/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/condicionals/Switch2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/FuncionsAmbRetorn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/PrimeraFuncio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sequencials/AreaCercle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sequencials/Suma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sequencials/Suma2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/ComptarAs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/ComptarParaules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/ComptarVocals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/LletraAlletra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/MeuString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/NomLlinatges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/Palindrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/PasswordIguals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/PasswordIguals2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/VerificarEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variables/Variables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variables/VariablesEntrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variables/VariablesPrintF.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="3JBE7YI4j8ro9h8AXXs4fOvhhPW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bucles" />
+      <recent name="condicionals" />
+      <recent name="strings" />
+      <recent name="variables" />
+      <recent name="sequencials" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PrimeraFuncio">
+    <configuration name="ExempleBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.ExempleBreak" />
+      <module name="ActJAVA2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bucles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExempleBreak2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.ExempleBreak2" />
+      <module name="ActJAVA2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bucles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExempleContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.ExempleContinue" />
+      <module name="ActJAVA2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bucles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExempleContinue2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.ExempleContinue2" />
+      <module name="ActJAVA2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bucles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeraFuncio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="funcions.PrimeraFuncio" />
+      <module name="ActJAVA2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="funcions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PrimeraFuncio" />
+        <item itemvalue="Application.ExempleContinue2" />
+        <item itemvalue="Application.ExempleContinue" />
+        <item itemvalue="Application.ExempleBreak2" />
+        <item itemvalue="Application.ExempleBreak" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0357d0f-98c9-4e7c-a752-7d841ab2fe29" name="Changes" comment="" />
+      <created>1789125901351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789125901351</updated>
+      <workItem from="1789125903501" duration="598000" />
+      <workItem from="1789472692743" duration="9000" />
+      <workItem from="1789729087519" duration="3719000" />
+      <workItem from="1789751994083" duration="89000" />
+      <workItem from="1790249924847" duration="13000" />
+      <workItem from="1790326847194" duration="4658000" />
+      <workItem from="1790575415028" duration="3118000" />
+      <workItem from="1790598210196" duration="7000" />
+      <workItem from="1790833877357" duration="4057000" />
+      <workItem from="1790849618372" duration="5000" />
+      <workItem from="1790938021288" duration="4278000" />
+      <workItem from="1791179982798" duration="3316000" />
+      <workItem from="1791374813820" duration="6000" />
+      <workItem from="1791439177202" duration="3852000" />
+      <workItem from="1791454431273" duration="5000" />
+      <workItem from="1791542905508" duration="4346000" />
+      <workItem from="1791875016553" duration="599000" />
+      <workItem from="1792004214997" duration="301000" />
+      <workItem from="1792044777871" duration="2999000" />
+      <workItem from="1792137709932" duration="464000" />
+      <workItem from="1792143388330" duration="630000" />
+      <workItem from="1792145356730" duration="6405000" />
+      <workItem from="1792164321830" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
