@@ -2,54 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0357d0f-98c9-4e7c-a752-7d841ab2fe29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActJAVA2026.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/BucleChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/ExempleBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/ExempleBreak2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/ExempleContinue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/ExempleContinue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/ForInicialitzat2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/Imprimir100a1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/Imprmir1a100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/Multiples3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/Producte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/QuantsNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/SuccesioAritmetica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/SuccesioGeometrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/SumaNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/TaulaMultiplicar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/TaulaMultiplicar10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condicionals/Equacions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condicionals/Maxim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condicionals/NotaPonderada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condicionals/NumeroParOperadorCondicional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condicionals/OperadorCondicional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condicionals/Switch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condicionals/Switch2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcions/FuncionsAmbRetorn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcions/PrimeraFuncio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sequencials/AreaCercle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sequencials/Suma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sequencials/Suma2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/ComptarAs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/ComptarParaules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/ComptarVocals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/LletraAlletra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/MeuString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/NomLlinatges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/Palindrom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/PasswordIguals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/PasswordIguals2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/VerificarEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/Variables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/VariablesEntrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/VariablesPrintF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/AreaRectangleFuncio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/CelsiusAFarenheitFuncio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/PasParametres2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/PasPrametres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/CompteEnrera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/PotenciaRecursiva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/RecursiuPar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,20 +46,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="funcions" />
       <recent name="bucles" />
       <recent name="condicionals" />
       <recent name="strings" />
       <recent name="variables" />
-      <recent name="sequencials" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeraFuncio">
-    <configuration name="ExempleBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.ExempleBreak" />
+  <component name="RunManager" selected="Application.RecursiuPar">
+    <configuration name="CompteEnrera" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.CompteEnrera" />
       <module name="ActJAVA2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bucles.*" />
+          <option name="PATTERN" value="recursius.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExempleBreak2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.ExempleBreak2" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.Factorial" />
       <module name="ActJAVA2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bucles.*" />
+          <option name="PATTERN" value="recursius.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExempleContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.ExempleContinue" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.Fibonacci" />
       <module name="ActJAVA2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bucles.*" />
+          <option name="PATTERN" value="recursius.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExempleContinue2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.ExempleContinue2" />
+    <configuration name="PotenciaRecursiva" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.PotenciaRecursiva" />
       <module name="ActJAVA2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bucles.*" />
+          <option name="PATTERN" value="recursius.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeraFuncio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcions.PrimeraFuncio" />
+    <configuration name="RecursiuPar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.RecursiuPar" />
       <module name="ActJAVA2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="funcions.*" />
+          <option name="PATTERN" value="recursius.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimeraFuncio" />
-        <item itemvalue="Application.ExempleContinue2" />
-        <item itemvalue="Application.ExempleContinue" />
-        <item itemvalue="Application.ExempleBreak2" />
-        <item itemvalue="Application.ExempleBreak" />
+        <item itemvalue="Application.RecursiuPar" />
+        <item itemvalue="Application.PotenciaRecursiva" />
+        <item itemvalue="Application.CompteEnrera" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -198,10 +160,24 @@
       <workItem from="1792143388330" duration="630000" />
       <workItem from="1792145356730" duration="6405000" />
       <workItem from="1792164321830" duration="10000" />
+      <workItem from="1792648355190" duration="4289000" />
+      <workItem from="1792750373291" duration="5167000" />
     </task>
+    <task id="LOCAL-00001" summary="Activitats">
+      <created>1792648529061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1792648529061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Activitats" />
+    <option name="LAST_COMMIT_MESSAGE" value="Activitats" />
   </component>
 </project>
