@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0357d0f-98c9-4e7c-a752-7d841ab2fe29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/funcions/AreaRectangleFuncio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcions/CelsiusAFarenheitFuncio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcions/PasParametres2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcions/PasPrametres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursius/CompteEnrera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursius/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursius/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursius/PotenciaRecursiva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursius/RecursiuPar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/MaximComuDivisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/Producte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursius/RecursiuPar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursius/RecursiuPar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
       <recent name="variables" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RecursiuPar">
+  <component name="RunManager" selected="Application.Producte">
     <configuration name="CompteEnrera" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursius.CompteEnrera" />
       <module name="ActJAVA2026" />
@@ -67,21 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.Factorial" />
-      <module name="ActJAVA2026" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursius.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.Fibonacci" />
+    <configuration name="MaximComuDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.MaximComuDivisor" />
       <module name="ActJAVA2026" />
       <extension name="coverage">
         <pattern>
@@ -95,6 +76,19 @@
     </configuration>
     <configuration name="PotenciaRecursiva" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursius.PotenciaRecursiva" />
+      <module name="ActJAVA2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursius.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.Producte" />
       <module name="ActJAVA2026" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Producte" />
+        <item itemvalue="Application.MaximComuDivisor" />
         <item itemvalue="Application.RecursiuPar" />
         <item itemvalue="Application.PotenciaRecursiva" />
         <item itemvalue="Application.CompteEnrera" />
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +155,8 @@
       <workItem from="1792145356730" duration="6405000" />
       <workItem from="1792164321830" duration="10000" />
       <workItem from="1792648355190" duration="4289000" />
-      <workItem from="1792750373291" duration="5167000" />
+      <workItem from="1792750373291" duration="5974000" />
+      <workItem from="1792997796267" duration="2265000" />
     </task>
     <task id="LOCAL-00001" summary="Activitats">
       <created>1792648529061</created>
@@ -170,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1792648529061</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Activitats">
+      <created>1792755586360</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1792755586360</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
