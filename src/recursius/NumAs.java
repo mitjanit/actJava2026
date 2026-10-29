@@ -28,7 +28,7 @@ public class NumAs {
         else {
             String primera = String.valueOf(s.charAt(0));
             String subparaula = s.substring(1);
-            return numAs(primera) + numAs(subparaula);
+            return numAsR(primera) + numAsR(subparaula);
         }
     }
 }
