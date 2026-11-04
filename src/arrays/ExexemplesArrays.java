@@ -33,6 +33,8 @@ public class ExexemplesArrays {
         System.out.println("Suma: " + sumaArray(edats));
         System.out.println("Mitjana: " + mitjanaArray(edats));
         System.out.println("Màxim: " + maximArray(edats));
+        System.out.println("Mínim: " + minimArray(edats));
+        System.out.println("Num. Positius: " + numPositius(edats));
     }
     public static void imprimirArray(String [] array){
         for(int i=0; i<array.length; i++){
@@ -73,6 +75,26 @@ public class ExexemplesArrays {
             }
         }
         return max;
+    }
+
+    public static int minimArray(int[] array){
+        int min = array[0];
+        for(int i=1; i<array.length; i++){
+            if(array[i] < min){
+                min = array[i];
+            }
+        }
+        return min;
+    }
+
+    public static int numPositius(int[] array){
+        int n = 0;
+        for(int i=1; i<array.length; i++){
+            if(array[i] >=0 ){
+                n++;
+            }
+        }
+        return n;
     }
 
     public static boolean totsZeros(int[] array){

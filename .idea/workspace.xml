@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0357d0f-98c9-4e7c-a752-7d841ab2fe29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/ExexemplesArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursius/EndevinarNumero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursius/EndevinarNumero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +157,8 @@
       <workItem from="1793088986497" duration="146000" />
       <workItem from="1793208991326" duration="686000" />
       <workItem from="1793256821595" duration="3434000" />
-      <workItem from="1793355653477" duration="6866000" />
+      <workItem from="1793355653477" duration="7333000" />
+      <workItem from="1793615711032" duration="139000" />
     </task>
     <task id="LOCAL-00001" summary="Activitats">
       <created>1792648529061</created>
@@ -203,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1793356052081</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Activitats">
+      <created>1793364723257</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1793364723257</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
