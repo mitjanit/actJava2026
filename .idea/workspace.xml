@@ -44,7 +44,7 @@
       <recent name="variables" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExexemplesArrays">
+  <component name="RunManager" selected="Application.ExemplesArrays">
     <configuration name="Bocata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursius.Bocata" />
       <module name="ActJAVA2026" />
@@ -71,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExexemplesArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ExexemplesArrays" />
+    <configuration name="ExemplesArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ExemplesArrays" />
       <module name="ActJAVA2026" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExexemplesArrays" />
+        <item itemvalue="Application.ExemplesArrays" />
         <item itemvalue="Application.EndevinarNumero" />
         <item itemvalue="Application.Bocata" />
         <item itemvalue="Application.NumAs" />

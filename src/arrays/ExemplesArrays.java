@@ -1,6 +1,6 @@
 package arrays;
 
-public class ExexemplesArrays {
+public class ExemplesArrays {
 
     public static void main(String[] args) {
 
