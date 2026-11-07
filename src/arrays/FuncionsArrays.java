@@ -5,10 +5,16 @@ public class FuncionsArrays {
     public static void main(String[] args) {
         ExemplesArrays.imprimirArray(numsEntre(1, 6));
         System.out.println();
+
         int[] copia = copiarArray(numsEntre(2, 8));
         ExemplesArrays.imprimirArray(copia);
+
         System.out.println();
         ExemplesArrays.imprimirArray(reverseArray(copia));
+
+        System.out.println();
+        ExemplesArrays.imprimirArray(potencies2Array(10));
+
     }
 
     public static int[] numsEntre(int a, int b){
@@ -39,6 +45,14 @@ public class FuncionsArrays {
         int[] array = new int[b-a+1];
         for(int i=0; i<array.length; i++){
             array[i] = nums[a+i];
+        }
+        return array;
+    }
+
+    public static int[] potencies2Array(int n){
+        int[] array = new int[n];
+        for(int i=0; i<array.length; i++){
+            array[i] = (int) Math.pow(2, i);
         }
         return array;
     }
