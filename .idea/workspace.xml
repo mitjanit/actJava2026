@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0357d0f-98c9-4e7c-a752-7d841ab2fe29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayPrimers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/FuncionsArrays2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/FuncionsArrays3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ExemplesArrays2D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/FuncionsArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/FuncionsArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,7 @@
       <recent name="variables" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FuncionsArrays3">
+  <component name="RunManager" selected="Application.ExemplesArrays2D">
     <configuration name="ArrayPrimers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayPrimers" />
       <module name="ActJAVA2026" />
@@ -62,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemplesArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ExemplesArrays" />
+    <configuration name="ExemplesArrays2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ExemplesArrays2D" />
       <module name="ActJAVA2026" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FuncionsArrays3" />
+        <item itemvalue="Application.ExemplesArrays2D" />
         <item itemvalue="Application.ArrayPrimers" />
+        <item itemvalue="Application.FuncionsArrays3" />
         <item itemvalue="Application.FuncionsArrays2" />
         <item itemvalue="Application.FuncionsArrays" />
-        <item itemvalue="Application.ExemplesArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +163,8 @@
       <workItem from="1793860744774" duration="3817000" />
       <workItem from="1793904436999" duration="116000" />
       <workItem from="1793963756834" duration="6161000" />
-      <workItem from="1794071203295" duration="711000" />
+      <workItem from="1794071203295" duration="745000" />
+      <workItem from="1794207316100" duration="3878000" />
     </task>
     <task id="LOCAL-00001" summary="Activitats">
       <created>1792648529061</created>
@@ -224,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1793868039979</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Activitats">
+      <created>1794071937476</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1794071937476</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
