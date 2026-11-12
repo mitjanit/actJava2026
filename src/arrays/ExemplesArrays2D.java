@@ -5,8 +5,8 @@ public class ExemplesArrays2D {
     public static void main(String[] args) {
 
         float [][] notes = {
-                {5.5f,      7,      3},
-                {7.5f,      6.4f,   3},
+                {5.5f,      7,      8},
+                {7.5f,      6.4f,   1},
                 {9.5f,      7.4f,   3},
         };
 
@@ -20,8 +20,13 @@ public class ExemplesArrays2D {
 
         System.out.println();
 
-        // Imprimeix diagonal array 2D
-        imprimirDiagonalArray2D(notes);
+        // Imprimeix diagonal descendent array 2D
+        imprimirDiagonalArray2Ddesc(notes);
+
+        System.out.println();
+
+        // Imprimeix diagonal ascendent array 2D
+        imprimirDiagonalArray2Dasc(notes);
     }
 
     public static void imprimirArray2DFiles(float[][] array){
@@ -29,6 +34,16 @@ public class ExemplesArrays2D {
             System.out.printf("[%d]:\t", i);
             for(int j=0; j<array[0].length; j++){
                 System.out.printf("%f\t", array[i][j]);
+            }
+            System.out.println();
+        }
+    }
+
+    public static void imprimirArray2DFiles(int[][] array){
+        for(int i=0; i<array.length; i++){
+            System.out.printf("[%d]:\t", i);
+            for(int j=0; j<array[0].length; j++){
+                System.out.printf("%d\t", array[i][j]);
             }
             System.out.println();
         }
@@ -44,9 +59,21 @@ public class ExemplesArrays2D {
         }
     }
 
-    public static void imprimirDiagonalArray2D(float[][] array){
+    public static void imprimirDiagonalArray2Ddesc(float[][] array){
         for(int i=0; i<array.length; i++){
             System.out.printf("%f\t", array[i][i]);
+        }
+    }
+
+    public static void imprimirDiagonalArray2Dasc(float[][] array){
+        for(int i=0; i<array.length; i++){
+            System.out.printf("%f\t", array[array.length - 1 - i][i]);
+        }
+    }
+
+    public static void imprimirDiagonalArray2Dasc1(float[][] array){
+        for(int i=array.length - 1, j=0; j<array.length; i--, j++){
+            System.out.printf("%f\t", array[i][j]);
         }
     }
 }
