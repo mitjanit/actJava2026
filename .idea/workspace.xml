@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0357d0f-98c9-4e7c-a752-7d841ab2fe29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/FuncionsArrays4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/ExemplesArrays2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/ExemplesArrays2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/FuncionsArrays4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/FuncionsArrays4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +167,8 @@
       <workItem from="1794207316100" duration="4059000" />
       <workItem from="1794215769926" duration="5000" />
       <workItem from="1794466308928" duration="3932000" />
-      <workItem from="1794496188312" duration="393000" />
+      <workItem from="1794496188312" duration="449000" />
+      <workItem from="1794567308567" duration="1841000" />
     </task>
     <task id="LOCAL-00001" summary="Activitats">
       <created>1792648529061</created>
@@ -240,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1794211266975</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Activitats">
+      <created>1794496628653</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1794496628653</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

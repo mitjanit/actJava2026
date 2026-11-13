@@ -20,9 +20,11 @@ public class FuncionsArrays4 {
 
         System.out.println();
         System.out.printf("Són iguals els arrays? %b.%n", igualsArray2D(a, b));
-        
+
         System.out.printf("Màxim de l'array 2D A: %d.%n", maximArray2D(a));
         System.out.printf("Màxim de l'array 2D B: %d.%n", maximArray2D(b));
+
+        imprimirPosicions(a, 2, 5);
 
     }
 
@@ -72,5 +74,23 @@ public class FuncionsArrays4 {
             }
         }
         return maxim;
+    }
+
+    public static void imprimirPosicions(int[][]array, int a, int b){
+        for(int i=0; i<array.length; i++){
+            for(int j=0; j<array[0].length; j++){
+                if(array[i][j]>= a && array[i][j]<=b){
+                    System.out.printf("[%d][%d]: %d.%n", i, j, array[i][j]);
+                }
+            }
+        }
+    }
+
+    public static int[][] matriuIdentitat(int n){
+        int[][] array = new int[n][n];
+        for(int i=0; i<array.length; i++){
+            array[i][i] = 1;
+        }
+        return array;
     }
 }
