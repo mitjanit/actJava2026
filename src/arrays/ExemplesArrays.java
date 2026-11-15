@@ -47,6 +47,12 @@ public class ExemplesArrays {
         }
     }
 
+    public static void imprimirArray(float [] array){
+        for(int i=0; i<array.length; i++){
+            System.out.printf("[%d]: %f%n", i, array[i]);
+        }
+    }
+
     public static int sumaArray(int[] array){
         int total = 0;
         for(int i=0; i<array.length; i++){

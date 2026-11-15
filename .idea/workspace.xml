@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0357d0f-98c9-4e7c-a752-7d841ab2fe29" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/arrays/EstadistiquesArray2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tresenratlla/TresEnRatlla.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/FuncionsArrays4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/FuncionsArrays4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/ExemplesArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/ExemplesArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +47,22 @@
       <recent name="variables" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FuncionsArrays4">
+  <component name="RunManager" selected="Application.EstadistiquesArray2D">
     <configuration name="ArrayPrimers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayPrimers" />
+      <module name="ActJAVA2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EstadistiquesArray2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.EstadistiquesArray2D" />
       <module name="ActJAVA2026" />
       <extension name="coverage">
         <pattern>
@@ -72,32 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncionsArrays2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.FuncionsArrays2" />
-      <module name="ActJAVA2026" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FuncionsArrays3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.FuncionsArrays3" />
-      <module name="ActJAVA2026" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FuncionsArrays4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.FuncionsArrays4" />
       <module name="ActJAVA2026" />
@@ -111,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TresEnRatlla" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tresenratlla.TresEnRatlla" />
+      <module name="ActJAVA2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tresenratlla.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EstadistiquesArray2D" />
+        <item itemvalue="Application.TresEnRatlla" />
         <item itemvalue="Application.FuncionsArrays4" />
         <item itemvalue="Application.ExemplesArrays2D" />
         <item itemvalue="Application.ArrayPrimers" />
-        <item itemvalue="Application.FuncionsArrays3" />
-        <item itemvalue="Application.FuncionsArrays2" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +170,9 @@
       <workItem from="1794215769926" duration="5000" />
       <workItem from="1794466308928" duration="3932000" />
       <workItem from="1794496188312" duration="449000" />
-      <workItem from="1794567308567" duration="1841000" />
+      <workItem from="1794567308567" duration="6494000" />
+      <workItem from="1794583085021" duration="205000" />
+      <workItem from="1794737178859" duration="390000" />
     </task>
     <task id="LOCAL-00001" summary="Activitats">
       <created>1792648529061</created>
@@ -247,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1794496628653</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Activitats">
+      <created>1794569967843</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1794569967843</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
