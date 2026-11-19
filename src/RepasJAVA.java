@@ -1,3 +1,6 @@
+import java.sql.SQLSyntaxErrorException;
+import java.util.Scanner;
+
 public class RepasJAVA {
 
     public static void main(String[] args) {
@@ -58,6 +61,18 @@ public class RepasJAVA {
 
         for(int a = 0, b= 10; a<5 && b>5; a++, b--){ }
 
+        // instruccions de sortida de bloc (continue, break)
+        // Bucle amb continue, Imprimir: 0, 1, 2, 3, 4, _ , 6, 7, 8, 9
+        for(int i=0; i<10; i++){
+            if(i==5){ continue;}
+            System.out.println(i);
+        }
+        // Bucle amb break, Imprimir: 0, 1, 2, 3, 4, _
+        for(int i=0; i<10; i++){
+            if(i==5){ break;}
+            System.out.println(i);
+        }
+
         // 8) Operacions amb Strings
         nom = "Paquita";
         int llarg = nom.length(); // 7
@@ -97,12 +112,35 @@ public class RepasJAVA {
             }
         }
 
+
+        // 10) Entrada de dades (Scanner)
+
+        Scanner input = new Scanner(System.in);
+        int numSencer = input.nextInt();
+        float numDecimals = input.nextFloat();
+        boolean varBooleana = input.nextBoolean();
+        String varString = input.next();
+        String linea = input.nextLine();
+        char varChar = input.next().charAt(0);
+
+        //11) Sortida de dades (print, println, printf)
+        System.out.print("El meu nom és " + nom);
+        System.out.println("Missatge amb salt de línia final.");
+        System.out.print("Missatge amb salt de línia final.\n");
+
+        // printf utiliza símbols: %d, %f, %s, %c, %n, %t
+        System.out.printf("Missatge formatat amb %d", numSencer);
+        System.out.printf("Missatge formatat amb %s", varString);
+        System.out.printf("Missatge formatat amb %s i %d", varString, numSencer);
+
+        // Cridades a les funcions
         faCosa();
         int valorRetorna = retornaCosa();
+        funcioAmbParametres(numSencer, 'a');
 
     }
 
-    // 10) Funcions (declaració, cridada, paràmetres)
+    // 12) Funcions (declaració, cridada, paràmetres)
 
     public static void faCosa(){ }
 
@@ -110,8 +148,12 @@ public class RepasJAVA {
 
     public static void funcioAmbParametres(int param1, char param2){ }
 
-    public static void funcioRecursiva1(){
-        
+    public static void funcioRecursiva1(int pis){
+        if(pis == 0){ System.out.println("Arribada"); }  // Cas base (sense recursió)
+        else {
+            System.out.println("Baixant un pis");
+            funcioRecursiva1(pis -1);           // Recursivitat
+        }
     }
 
 
