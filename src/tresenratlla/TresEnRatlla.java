@@ -15,6 +15,8 @@ public class TresEnRatlla {
     public static TORN torn;
     public static int numTirades;
 
+    public static final int DIMENSIO = 3;
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -27,10 +29,11 @@ public class TresEnRatlla {
             resultat = comprovaResultat(tauler);
             torn = canviarTorn(torn);
         }
+        mostrarResultat(resultat);
     }
 
     public static void inicialitzaPartida(){
-        tauler = new VALOR[3][3];
+        tauler = new VALOR[DIMENSIO][DIMENSIO];
         for(int i=0; i<tauler.length; i++){
             for(int j=0; j<tauler[0].length; j++){
                 tauler[i][j] = VALOR.BUIDA;
@@ -59,32 +62,98 @@ public class TresEnRatlla {
     }
 
     public static boolean partidaAcabada(){
-        return false;
+        return (numTirades == tauler.length * tauler.length ||
+                resultat != RESULTAT.EN_JOC);
     }
 
     public static void ferTirada(Scanner input, TORN torn, VALOR[][] t){
         int f, c;
+        System.out.println("JUGADOR: " + torn);
         do {
-            System.out.print("Indica la fila: ");
-            f = input.nextInt();
-            System.out.print("Indica la Columna: ");
-            c = input.nextInt();
+            f= demanar("Indica la fila: ", input);
+            c = demanar("Indica la Columna: ", input);
         } while(!tiradaValida(f, c, tauler));
 
         tauler[f][c] = (torn==TORN.JUGADOR_A)? VALOR.CREU : VALOR.CERCLE;
         numTirades++;
     }
 
+    public static int demanar(String missatge, Scanner input){
+        System.out.print(missatge);
+        return input.nextInt();
+    }
+
     public static boolean tiradaValida(int f, int c, VALOR[][] t){
-        return (f>=0 && f<3 &&
-                c>=0 && c<3 &&
+        return (f>=0 && f<t.length &&
+                c>=0 && c<t.length &&
                 t[f][c]==VALOR.BUIDA);
     }
 
     public static RESULTAT comprovaResultat(VALOR[][] t){
-        return RESULTAT.EN_JOC;
+
+        boolean guanyaF = false;
+        for(int f=0; f<t.length; f++) {
+            boolean b = true;
+            for(int c=0; c<t.length-1; c++) {
+                b = b && (t[f][c] == t[f][c+1] &&
+                          t[f][c] != VALOR.BUIDA);
+            }
+            guanyaF = b || guanyaF;
+        }
+
+
+        boolean guanyaC = false;
+        for(int c=0; c<t.length; c++) {
+            boolean b = true;
+            for(int f=0; f<t.length-1; f++){
+                b = b && (t[f][c] == t[f+1][c] &&
+                          t[f][c] != VALOR.BUIDA);
+            }
+            guanyaC = b || guanyaC;
+        }
+
+        boolean bDD = true;
+        for(int i=0; i<t.length; i++){
+            bDD = bDD && (t[i][i] == t[0][0] && t[i][i] != VALOR.BUIDA);
+        }
+        boolean guanyaDD = bDD;
+
+
+        boolean bDA = true;
+        for(int c=0, f = t.length-1; c<t.length; c++, f--){
+            bDA = bDA && (t[f][c]==t[f-1][c+1] && t[f][c] != VALOR.BUIDA);
+        }
+        boolean guanyaDA = bDA;
+
+        if(guanyaF || guanyaC || guanyaDD || guanyaDA) {
+            return (torn==TORN.JUGADOR_A) ? RESULTAT.GUANYADOR_A : RESULTAT.GUANYADOR_B;
+        }
+        else if(numTirades == tauler.length * tauler.length){
+            return RESULTAT.EMPAT;
+        }
+        else {
+            return RESULTAT.EN_JOC;
+        }
     }
+
     public static TORN canviarTorn(TORN torn){
-        return TORN.JUGADOR_A;
+        if(torn == TORN.JUGADOR_A) {
+            return TORN.JUGADOR_B;
+        }
+        else {
+            return TORN.JUGADOR_A;
+        }
+    }
+
+    public static void mostrarResultat(RESULTAT r){
+        if(r == RESULTAT.EMPAT){
+            System.out.println("La partida acaba en EMPAT.");
+        }
+        else if(r== RESULTAT.GUANYADOR_A){
+            System.out.println("El guanyador de la partida és A.");
+        }
+        else if(r== RESULTAT.GUANYADOR_B){
+            System.out.println("El guanyador de la partida és B.");
+        }
     }
 }
